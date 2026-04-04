@@ -1,0 +1,29 @@
+{
+	"files": [],
+	"references": [
+		{ "path": "./tsconfig.app.json" },
+		{ "path": "./tsconfig.node.json" }
+	],
+
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@assets/*": ["./src/assets/*"],
+			"@constants/*": ["./src/constants/*"],
+			"@types/*": ["./src/types/*"],
+			"@lib/*": ["./src/lib/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@store/*": ["./src/store/*"],
+			"@services/*": ["./src/services/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@components": ["./src/components/index.ts"],
+			"@components/*": ["./src/components/*"],
+			"@ui/*": ["./src/components/ui/*"],
+			"@forms/*": ["./src/forms/*"],
+			"@contexts/*": ["./src/contexts/*"],
+			"@providers/*": ["./src/providers/*"],
+			"@/*": ["./src/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}

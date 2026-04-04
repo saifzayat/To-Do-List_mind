@@ -1,0 +1,26 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "title": "Learn Redux",
+      "description": "Include hero section",
+      "column": "in_progress",
+      "status": "done"
+    },
+    {
+      "id": "3",
+      "title": "Learn React Query",
+      "description": "Include hero section",
+      "column": "done",
+      "status": "low"
+    },
+    {
+      "id": "4",
+      "title": "Learn React Query",
+      "description": "Include hero section",
+      "column": "backlog",
+      "status": "medium"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
