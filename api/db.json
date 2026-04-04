@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "title": "Learn Redux",
+      "description": "Include hero section",
+      "column": "done",
+      "status": "done"
+    },
+    {
+      "id": "3",
+      "title": "Learn React Query",
+      "description": "Include hero section",
+      "column": "review",
+      "status": "low"
+    },
+    {
+      "id": "4",
+      "title": "Learn React Query",
+      "description": "Include hero section",
+      "column": "backlog",
+      "status": "medium"
+    },
+    {
+      "title": "test",
+      "description": "1234",
+      "status": "high",
+      "column": "backlog",
+      "id": "H3QFZbONSl0"
+    }
+  ]
+}

@@ -1,10 +1,14 @@
 {
 	"version": 2,
-	"builds": [
-		{ "src": "api/server.js", "use": "@vercel/node" }
-	],
-	"routes": [
-		{ "src": "/api/(.*)", "dest": "api/server.js" },
-		{ "src": "/(.*)", "dest": "index.html" }
+	"buildCommand": "pnpm run build",
+	"outputDirectory": "dist",
+	"functions": {
+		"api/server.js": {
+			"runtime": "@vercel/node@5"
+		}
+	},
+	"rewrites": [
+		{ "source": "/api/(.*)", "destination": "/api/server.js" },
+		{ "source": "/(.*)", "destination": "/index.html" }
 	]
 }
