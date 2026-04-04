@@ -4,14 +4,14 @@
       "id": "2",
       "title": "Learn Redux",
       "description": "Include hero section",
-      "column": "in_progress",
+      "column": "done",
       "status": "done"
     },
     {
       "id": "3",
       "title": "Learn React Query",
       "description": "Include hero section",
-      "column": "done",
+      "column": "review",
       "status": "low"
     },
     {
@@ -20,6 +20,13 @@
       "description": "Include hero section",
       "column": "backlog",
       "status": "medium"
+    },
+    {
+      "title": "test",
+      "description": "1234",
+      "status": "high",
+      "column": "backlog",
+      "id": "H3QFZbONSl0"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

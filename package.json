@@ -3,6 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
+	"start": "node api/server.js",
 	"lint-staged": {
 		"*.{js,jsx,ts,tsx}": [
 			"prettier --write",
@@ -34,7 +35,7 @@
 		"@mui/material": "^7.3.9",
 		"@reduxjs/toolkit": "^2.11.2",
 		"@tanstack/react-query": "^5.96.2",
-		"json-server": "1.0.0-beta.15",
+		"json-server": "^0.17.4",
 		"react": "^19.2.4",
 		"react-dom": "^19.2.4",
 		"react-redux": "^9.2.0"
