@@ -16,13 +16,13 @@
 		]
 	},
 	"scripts": {
-		"dev": "vite",
+		"dev": "concurrently \"pnpm run dev:vite\" \"pnpm run dev:server\"",
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"dev:vite": "vite",
 		"dev:server": "json-server db.json --port 4000",
-		"start": "concurrently \"pnpm run dev:vite\" \"pnpm run dev:server\""
+		"start": "node api/server.js"
 	},
 	"dependencies": {
 		"@dnd-kit/core": "^6.3.1",
